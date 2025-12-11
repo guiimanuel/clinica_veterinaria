@@ -7,17 +7,17 @@ For further reference, please consider the following sections:
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.0.0/maven-plugin)
 * [Create an OCI image](https://docs.spring.io/spring-boot/4.0.0/maven-plugin/build-image.html)
 * [Thymeleaf](https://docs.spring.io/spring-boot/4.0.0/reference/web/servlet.html#web.servlet.spring-mvc.template-engines)
-* [JDBC API](https://docs.spring.io/spring-boot/4.0.0/reference/data/sql.html)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/4.0.0/reference/data/sql.html#data.sql.jpa-and-spring-data)
+* [JDBC API](https://docs.spring.io/spring-boot/4.0.0/reference/data/sql.html)
 
 ### Guides
 The following guides illustrate how to use some features concretely:
 
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
-* [Accessing Relational Data using JDBC with Spring](https://spring.io/guides/gs/relational-data-access/)
-* [Managing Transactions](https://spring.io/guides/gs/managing-transactions/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+* [Accessing Relational Data using JDBC with Spring](https://spring.io/guides/gs/relational-data-access/)
+* [Managing Transactions](https://spring.io/guides/gs/managing-transactions/)
 
 ### Maven Parent overrides
 
