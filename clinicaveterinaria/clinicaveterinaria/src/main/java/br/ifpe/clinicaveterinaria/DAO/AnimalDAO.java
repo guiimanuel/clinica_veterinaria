@@ -2,6 +2,7 @@ package br.ifpe.clinicaveterinaria.DAO;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 
 import org.springframework.jdbc.core.simple.JdbcClient;
@@ -52,7 +53,7 @@ public List<Animal> findAll() {
             params.put("especie", "%" + especie + "%");
         }
 
-        return jdbcClient.sql(sql.toString()).params(params).query(Animal.class).list();
+        return jdbcClient.sql(Objects.requireNonNull(sql.toString())).params(params).query(Animal.class).list();
     }
 
     public int update(Long idAnimal, Animal animal) {
